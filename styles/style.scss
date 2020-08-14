@@ -1,0 +1,16 @@
+$primaryBtn: #e0e0e0;
+$headerColor: #fff;
+$textColor: #0a0a0a;
+
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background-color: $background;
+}
+
+@import "./header";
+@import "./contact";
+@import "./footer";
